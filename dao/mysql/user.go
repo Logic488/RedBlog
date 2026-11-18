@@ -5,6 +5,7 @@ import (
 	"database/sql"
 	"errors"
 
+	"go.uber.org/zap"
 	"golang.org/x/crypto/bcrypt"
 )
 
@@ -81,4 +82,17 @@ func encryptPassword(oPassword string) (string, error) {
 		return "", err
 	}
 	return string(hash), nil
+}
+
+// GetUserByID 根据id获取用户
+func GetUserByID(id int64) (user *models.User, err error) {
+	user = new(models.User)
+	sqrStr := `select user_id, username from user where user_id = ?`
+	if err = db.Get(user, sqrStr, id); err != nil {
+		if err == sql.ErrNoRows {
+			zap.L().Warn("can not find the user by id")
+			err = nil
+		}
+	}
+	return
 }

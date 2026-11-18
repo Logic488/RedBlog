@@ -31,6 +31,11 @@ func SetUp(mode string) *gin.Engine {
 		v1.GET("community", controller.CommunityHandler)
 		//查询社区详情
 		v1.GET("community/:id", controller.CommunityDetailHandler)
+
+		//发表帖子
+		v1.POST("post", controller.CreatePostHandler)
+		//查询帖子详情
+		v1.GET("post/:id", controller.PostDetailHandler)
 	}
 
 	//r.GET("ping", middleware.JWTAuthMiddleware(), func(c *gin.Context) {
