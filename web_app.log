@@ -1,0 +1,148 @@
+{"level":"ERROR","time":"2026-11-13T17:42:54.257+0800","caller":"controller/user.go:21","msg":"SignUp with invalid param","error":"invalid character '/' after object key:value pair"}
+{"level":"INFO","time":"2026-11-13T17:42:54.257+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0}
+{"level":"ERROR","time":"2026-11-13T20:29:11.780+0800","caller":"controller/user.go:21","msg":"SignUp with invalid param","error":"invalid character '/' after object key:value pair"}
+{"level":"INFO","time":"2026-11-13T20:29:11.780+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0}
+{"level":"INFO","time":"2026-11-13T20:36:41.427+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2026-11-13T20:36:41.430+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+{"level":"DEBUG","time":"2026-11-13T20:36:46.448+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+{"level":"INFO","time":"2026-11-13T20:36:46.495+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+{"level":"ERROR","time":"2026-11-13T20:37:20.369+0800","caller":"controller/user.go:21","msg":"SignUp with invalid param","error":"invalid character '/' after object key:value pair"}
+{"level":"INFO","time":"2026-11-13T20:37:20.369+0800","caller":"logger/logger.go:74","msg":"/signup","status":400,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0005333}
+{"level":"INFO","time":"2026-11-13T20:39:05.416+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2026-11-13T20:39:05.416+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+{"level":"DEBUG","time":"2026-11-13T20:39:06.757+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+{"level":"INFO","time":"2026-11-13T20:39:06.794+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+{"level":"ERROR","time":"2026-11-13T20:39:10.503+0800","caller":"controller/user.go:21","msg":"SignUp with invalid param","error":"invalid character '/' after object key:value pair"}
+{"level":"INFO","time":"2026-11-13T20:39:10.503+0800","caller":"logger/logger.go:74","msg":"/signup","status":400,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0005105}
+{"level":"ERROR","time":"2026-11-13T20:40:57.597+0800","caller":"controller/user.go:21","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2026-11-13T20:40:57.597+0800","caller":"logger/logger.go:74","msg":"/signup","status":400,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0}
+{"level":"INFO","time":"2026-11-13T21:30:17.729+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2026-11-13T21:30:17.731+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+{"level":"DEBUG","time":"2026-11-13T21:30:22.686+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+{"level":"INFO","time":"2026-11-13T21:30:22.743+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+{"level":"ERROR","time":"2026-11-13T21:30:48.252+0800","caller":"controller/user.go:21","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2026-11-13T21:30:48.252+0800","caller":"logger/logger.go:74","msg":"/signup","status":400,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000505}
+{"level":"INFO","time":"2026-11-13T21:32:37.582+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2026-11-13T21:32:37.582+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+{"level":"DEBUG","time":"2026-11-13T21:32:38.363+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+{"level":"INFO","time":"2026-11-13T21:32:38.414+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+{"level":"ERROR","time":"2026-11-13T21:32:42.342+0800","caller":"controller/user.go:21","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2026-11-13T21:32:42.342+0800","caller":"logger/logger.go:74","msg":"/signup","status":400,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0005217}
+{"level":"ERROR","time":"2026-11-13T21:32:47.813+0800","caller":"controller/user.go:21","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2026-11-13T21:32:47.813+0800","caller":"logger/logger.go:74","msg":"/signup","status":400,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0005051}
+{"level":"INFO","time":"2026-11-13T21:33:01.443+0800","caller":"logger/logger.go:74","msg":"/signup","status":400,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0480001}
+{"level":"INFO","time":"2026-11-13T21:49:37.351+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2026-11-13T21:49:37.353+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+{"level":"DEBUG","time":"2026-11-13T21:49:42.370+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+{"level":"INFO","time":"2026-11-13T21:49:42.399+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+{"level":"INFO","time":"2026-11-13T21:50:37.928+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2026-11-13T21:50:37.929+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+{"level":"DEBUG","time":"2026-11-13T21:50:38.518+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+{"level":"INFO","time":"2026-11-13T21:50:38.547+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+{"level":"INFO","time":"2026-11-13T21:50:43.164+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.1101895}
+{"level":"ERROR","time":"2026-11-13T21:51:02.735+0800","caller":"controller/user.go:48","msg":"logic.SignUp failed","error":"用户已存在","username":"lec"}
+{"level":"INFO","time":"2026-11-13T21:51:02.735+0800","caller":"logger/logger.go:74","msg":"/signup","status":400,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0102547}
+{"level":"INFO","time":"2026-11-13T21:51:27.961+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.124915}
+{"level":"ERROR","time":"2026-11-13T21:51:37.533+0800","caller":"controller/user.go:21","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2026-11-13T21:51:37.533+0800","caller":"logger/logger.go:74","msg":"/signup","status":400,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0}
+{"level":"ERROR","time":"2026-11-13T21:51:48.478+0800","caller":"controller/user.go:21","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.Password' Error:Field validation for 'Password' failed on the 'required' tag"}
+{"level":"INFO","time":"2026-11-13T21:51:48.478+0800","caller":"logger/logger.go:74","msg":"/signup","status":400,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0}
+{"level":"ERROR","time":"2026-11-13T21:51:56.626+0800","caller":"controller/user.go:48","msg":"logic.SignUp failed","error":"用户已存在","username":"max"}
+{"level":"INFO","time":"2026-11-13T21:51:56.626+0800","caller":"logger/logger.go:74","msg":"/signup","status":400,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0005046}
+{"level":"INFO","time":"2026-11-13T21:52:10.655+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.1062551}
+{"level":"INFO","time":"2026-11-13T21:53:14.099+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2026-11-13T21:53:14.100+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+{"level":"DEBUG","time":"2026-11-13T21:53:17.111+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+{"level":"INFO","time":"2026-11-13T21:53:17.137+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+{"level":"ERROR","time":"2026-11-13T21:53:20.818+0800","caller":"controller/user.go:38","msg":"SignUp with invalid param","param":{"username":"max11","password":"max33","re_password":"max331"}}
+{"level":"INFO","time":"2026-11-13T21:53:20.935+0800","caller":"logger/logger.go:74","msg":"/signup","status":400,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.1171433}
+{"level":"INFO","time":"2026-11-13T21:53:47.272+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2026-11-13T21:53:47.272+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+{"level":"DEBUG","time":"2026-11-13T21:53:50.359+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+{"level":"INFO","time":"2026-11-13T21:53:50.386+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+{"level":"ERROR","time":"2026-11-13T21:53:52.877+0800","caller":"controller/user.go:38","msg":"SignUp with invalid param","param":{"username":"max11","password":"max33","re_password":"max331"}}
+{"level":"INFO","time":"2026-11-13T21:53:52.877+0800","caller":"logger/logger.go:74","msg":"/signup","status":400,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0005472}
+{"level":"INFO","time":"2026-11-13T21:55:49.507+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2026-11-13T21:55:49.507+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+{"level":"DEBUG","time":"2026-11-15T10:48:44.329+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+2026-11-15T10:48:44.329+0800	DEBUG	RedBlog/main.go:36	logger init success
+{"level":"INFO","time":"2026-11-15T10:48:44.355+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+2026-11-15T10:48:44.355+0800	INFO	RedBlog/main.go:70	服务启动成功	{"addr": ":8081"}
+{"level":"INFO","time":"2026-11-15T10:50:39.938+0800","caller":"logger/logger.go:84","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.1172508}
+2026-11-15T10:50:39.938+0800	INFO	logger/logger.go:84	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "117.2508ms"}
+{"level":"INFO","time":"2026-11-15T10:58:08.933+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+2026-11-15T10:58:08.933+0800	INFO	RedBlog/main.go:87	Shutdown Server ...
+{"level":"INFO","time":"2026-11-15T10:58:08.935+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+2026-11-15T10:58:08.935+0800	INFO	RedBlog/main.go:97	Server exiting
+{"level":"DEBUG","time":"2026-11-15T11:34:27.486+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+2026-11-15T11:34:27.486+0800	DEBUG	RedBlog/main.go:36	logger init success
+{"level":"INFO","time":"2026-11-15T11:34:27.566+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+2026-11-15T11:34:27.566+0800	INFO	RedBlog/main.go:70	服务启动成功	{"addr": ":8081"}
+{"level":"INFO","time":"2026-11-15T11:34:33.727+0800","caller":"logger/logger.go:84","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.2856421}
+2026-11-15T11:34:33.727+0800	INFO	logger/logger.go:84	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "285.6421ms"}
+{"level":"ERROR","time":"2026-11-15T11:34:38.520+0800","caller":"controller/user.go:87","msg":"logic.LogIn failed","error":"密码错误","username":"lec"}
+2026-11-15T11:34:38.520+0800	ERROR	controller/user.go:87	logic.LogIn failed	{"error": "密码错误", "username": "lec"}
+{"level":"INFO","time":"2026-11-15T11:34:38.520+0800","caller":"logger/logger.go:84","msg":"/login","status":401,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0895031}
+2026-11-15T11:34:38.520+0800	INFO	logger/logger.go:84	/login	{"status": 401, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "89.5031ms"}
+{"level":"ERROR","time":"2026-11-15T11:34:46.415+0800","caller":"controller/user.go:87","msg":"logic.LogIn failed","error":"用户不存在","username":"lc"}
+2026-11-15T11:34:46.415+0800	ERROR	controller/user.go:87	logic.LogIn failed	{"error": "用户不存在", "username": "lc"}
+{"level":"INFO","time":"2026-11-15T11:34:46.415+0800","caller":"logger/logger.go:84","msg":"/login","status":401,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0027169}
+2026-11-15T11:34:46.415+0800	INFO	logger/logger.go:84	/login	{"status": 401, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "2.7169ms"}
+{"level":"INFO","time":"2026-11-15T11:34:49.548+0800","caller":"logger/logger.go:84","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.091332}
+2026-11-15T11:34:49.548+0800	INFO	logger/logger.go:84	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "91.332ms"}
+{"level":"INFO","time":"2026-11-15T19:28:49.453+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+2026-11-15T19:28:49.453+0800	INFO	RedBlog/main.go:87	Shutdown Server ...
+{"level":"INFO","time":"2026-11-15T19:28:49.455+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+2026-11-15T19:28:49.455+0800	INFO	RedBlog/main.go:97	Server exiting
+{"level":"DEBUG","time":"2026-11-15T21:36:36.948+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+2026-11-15T21:36:36.948+0800	DEBUG	RedBlog/main.go:36	logger init success
+{"level":"DEBUG","time":"2026-11-15T21:36:52.204+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+2026-11-15T21:36:52.204+0800	DEBUG	RedBlog/main.go:36	logger init success
+{"level":"INFO","time":"2026-11-15T21:36:52.243+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+2026-11-15T21:36:52.243+0800	INFO	RedBlog/main.go:70	服务启动成功	{"addr": ":8081"}
+{"level":"INFO","time":"2026-11-15T21:38:34.892+0800","caller":"logger/logger.go:84","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.2017926}
+2026-11-15T21:38:34.892+0800	INFO	logger/logger.go:84	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "201.7926ms"}
+{"level":"INFO","time":"2026-11-15T21:47:55.799+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+2026-11-15T21:47:55.799+0800	INFO	RedBlog/main.go:87	Shutdown Server ...
+{"level":"INFO","time":"2026-11-15T21:47:55.800+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+2026-11-15T21:47:55.800+0800	INFO	RedBlog/main.go:97	Server exiting
+{"level":"DEBUG","time":"2026-11-16T17:22:40.146+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+2026-11-16T17:22:40.146+0800	DEBUG	RedBlog/main.go:36	logger init success
+{"level":"INFO","time":"2026-11-16T17:22:40.189+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+2026-11-16T17:22:40.189+0800	INFO	RedBlog/main.go:70	服务启动成功	{"addr": ":8081"}
+{"level":"INFO","time":"2026-11-16T17:23:41.741+0800","caller":"logger/logger.go:84","msg":"/api/v1login","status":200,"method":"POST","path":"/api/v1login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0005052}
+2026-11-16T17:23:41.741+0800	INFO	logger/logger.go:84	/api/v1login	{"status": 200, "method": "POST", "path": "/api/v1login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "505.2µs"}
+{"level":"INFO","time":"2026-11-16T17:23:48.475+0800","caller":"logger/logger.go:84","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0}
+2026-11-16T17:23:48.475+0800	INFO	logger/logger.go:84	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "0s"}
+{"level":"INFO","time":"2026-11-16T17:25:17.367+0800","caller":"logger/logger.go:84","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.141163}
+2026-11-16T17:25:17.367+0800	INFO	logger/logger.go:84	/api/v1/login	{"status": 200, "method": "POST", "path": "/api/v1/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "141.163ms"}
+{"level":"ERROR","time":"2026-11-16T17:25:34.716+0800","caller":"controller/user.go:58","msg":"logic.SignUp failed","error":"用户已存在","username":"max"}
+2026-11-16T17:25:34.716+0800	ERROR	controller/user.go:58	logic.SignUp failed	{"error": "用户已存在", "username": "max"}
+{"level":"INFO","time":"2026-11-16T17:25:34.716+0800","caller":"logger/logger.go:84","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0149075}
+2026-11-16T17:25:34.716+0800	INFO	logger/logger.go:84	/api/v1/signup	{"status": 200, "method": "POST", "path": "/api/v1/signup", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "14.9075ms"}
+{"level":"INFO","time":"2026-11-16T17:25:51.658+0800","caller":"logger/logger.go:84","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0}
+2026-11-16T17:25:51.658+0800	INFO	logger/logger.go:84	/api/v1/community	{"status": 200, "method": "GET", "path": "/api/v1/community", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "0s"}
+{"level":"INFO","time":"2026-11-16T17:25:56.553+0800","caller":"logger/logger.go:84","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0974096}
+2026-11-16T17:25:56.553+0800	INFO	logger/logger.go:84	/api/v1/login	{"status": 200, "method": "POST", "path": "/api/v1/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "97.4096ms"}
+{"level":"INFO","time":"2026-11-16T17:26:00.930+0800","caller":"logger/logger.go:84","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0}
+2026-11-16T17:26:00.930+0800	INFO	logger/logger.go:84	/api/v1/community	{"status": 200, "method": "GET", "path": "/api/v1/community", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "0s"}
+{"level":"INFO","time":"2026-11-16T17:26:17.434+0800","caller":"logger/logger.go:84","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.007974}
+2026-11-16T17:26:17.434+0800	INFO	logger/logger.go:84	/api/v1/community	{"status": 200, "method": "GET", "path": "/api/v1/community", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "7.974ms"}
+{"level":"INFO","time":"2026-11-16T17:32:59.471+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+2026-11-16T17:32:59.471+0800	INFO	RedBlog/main.go:87	Shutdown Server ...
+{"level":"INFO","time":"2026-11-16T17:32:59.472+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+2026-11-16T17:32:59.472+0800	INFO	RedBlog/main.go:97	Server exiting
+{"level":"DEBUG","time":"2026-11-16T20:34:34.546+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+2026-11-16T20:34:34.546+0800	DEBUG	RedBlog/main.go:36	logger init success
+{"level":"INFO","time":"2026-11-16T20:34:34.614+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+2026-11-16T20:34:34.614+0800	INFO	RedBlog/main.go:70	服务启动成功	{"addr": ":8081"}
+{"level":"INFO","time":"2026-11-16T20:35:02.087+0800","caller":"logger/logger.go:84","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0984959}
+2026-11-16T20:35:02.087+0800	INFO	logger/logger.go:84	/api/v1/login	{"status": 200, "method": "POST", "path": "/api/v1/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "98.4959ms"}
+{"level":"INFO","time":"2026-11-16T20:35:32.806+0800","caller":"logger/logger.go:84","msg":"/api/v1/community/1","status":200,"method":"GET","path":"/api/v1/community/1","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0030107}
+2026-11-16T20:35:32.806+0800	INFO	logger/logger.go:84	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "3.0107ms"}
+{"level":"INFO","time":"2026-11-16T20:35:38.789+0800","caller":"logger/logger.go:84","msg":"/api/v1/community/2","status":200,"method":"GET","path":"/api/v1/community/2","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0005661}
+2026-11-16T20:35:38.789+0800	INFO	logger/logger.go:84	/api/v1/community/2	{"status": 200, "method": "GET", "path": "/api/v1/community/2", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "566.1µs"}
+{"level":"INFO","time":"2026-11-16T20:39:30.656+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+2026-11-16T20:39:30.656+0800	INFO	RedBlog/main.go:87	Shutdown Server ...
+{"level":"INFO","time":"2026-11-16T20:39:30.657+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+2026-11-16T20:39:30.657+0800	INFO	RedBlog/main.go:97	Server exiting
