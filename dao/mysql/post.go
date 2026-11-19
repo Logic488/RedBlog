@@ -26,3 +26,11 @@ func GetPostDetailById(id int64) (p *models.Post, err error) {
 	}
 	return
 }
+
+// GetPostList 分页查询帖子列表
+func GetPostList(page, size int64) (posts []*models.Post, err error) {
+	sqlStr := `select post_id, author_id, title, content, community_id, status, create_time from post limit ?,?`
+	posts = make([]*models.Post, 0, 2)
+	err = db.Select(&posts, sqlStr, (page-1)*size, size)
+	return
+}

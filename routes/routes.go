@@ -36,6 +36,8 @@ func SetUp(mode string) *gin.Engine {
 		v1.POST("post", controller.CreatePostHandler)
 		//查询帖子详情
 		v1.GET("post/:id", controller.PostDetailHandler)
+		//查询帖子列表
+		v1.GET("post/", controller.GetPostListHandler)
 	}
 
 	//r.GET("ping", middleware.JWTAuthMiddleware(), func(c *gin.Context) {

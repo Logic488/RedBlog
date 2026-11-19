@@ -374,3 +374,67 @@
 2026-11-18T18:24:01.269+0800	INFO	RedBlog/main.go:87	Shutdown Server ...
 {"level":"INFO","time":"2026-11-18T18:24:01.269+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
 2026-11-18T18:24:01.269+0800	INFO	RedBlog/main.go:97	Server exiting
+{"level":"DEBUG","time":"2026-11-19T15:17:39.671+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+2026-11-19T15:17:39.671+0800	DEBUG	RedBlog/main.go:36	logger init success
+{"level":"INFO","time":"2026-11-19T15:17:39.852+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+2026-11-19T15:17:39.852+0800	INFO	RedBlog/main.go:70	服务启动成功	{"addr": ":8081"}
+{"level":"INFO","time":"2026-11-19T15:17:46.783+0800","caller":"logger/logger.go:84","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.1729067}
+2026-11-19T15:17:46.783+0800	INFO	logger/logger.go:84	/api/v1/login	{"status": 200, "method": "POST", "path": "/api/v1/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "172.9067ms"}
+{"level":"INFO","time":"2026-11-19T15:18:58.247+0800","caller":"logger/logger.go:84","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0274485}
+2026-11-19T15:18:58.247+0800	INFO	logger/logger.go:84	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "27.4485ms"}
+{"level":"INFO","time":"2026-11-19T15:19:26.337+0800","caller":"logger/logger.go:84","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.013108}
+2026-11-19T15:19:26.337+0800	INFO	logger/logger.go:84	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "13.108ms"}
+{"level":"INFO","time":"2026-11-19T15:20:21.930+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0}
+2026-11-19T15:20:21.930+0800	INFO	logger/logger.go:84	/api/v1/post/	{"status": 200, "method": "GET", "path": "/api/v1/post/", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "0s"}
+{"level":"INFO","time":"2026-11-19T15:20:39.225+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0389416}
+2026-11-19T15:20:39.225+0800	INFO	logger/logger.go:84	/api/v1/post/	{"status": 200, "method": "GET", "path": "/api/v1/post/", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "38.9416ms"}
+{"level":"INFO","time":"2026-11-19T15:32:42.900+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+2026-11-19T15:32:42.900+0800	INFO	RedBlog/main.go:87	Shutdown Server ...
+{"level":"INFO","time":"2026-11-19T15:32:42.901+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+2026-11-19T15:32:42.901+0800	INFO	RedBlog/main.go:97	Server exiting
+{"level":"DEBUG","time":"2026-11-19T15:32:47.215+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+2026-11-19T15:32:47.215+0800	DEBUG	RedBlog/main.go:36	logger init success
+{"level":"INFO","time":"2026-11-19T15:32:47.244+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+2026-11-19T15:32:47.244+0800	INFO	RedBlog/main.go:70	服务启动成功	{"addr": ":8081"}
+{"level":"INFO","time":"2026-11-19T15:32:52.382+0800","caller":"logger/logger.go:84","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0896385}
+2026-11-19T15:32:52.382+0800	INFO	logger/logger.go:84	/api/v1/login	{"status": 200, "method": "POST", "path": "/api/v1/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "89.6385ms"}
+{"level":"ERROR","time":"2026-11-19T15:33:04.697+0800","caller":"logic/post.go:64","msg":"mysql.GetPostList() failed","error":"Error 1690 (22003): signed integer value is out of range in 'mysqld_stmt_execute'"}
+2026-11-19T15:33:04.697+0800	ERROR	logic/post.go:64	mysql.GetPostList() failed	{"error": "Error 1690 (22003): signed integer value is out of range in 'mysqld_stmt_execute'"}
+{"level":"ERROR","time":"2026-11-19T15:33:04.697+0800","caller":"controller/post.go:85","msg":"logic.GetPostList() error","error":"Error 1690 (22003): signed integer value is out of range in 'mysqld_stmt_execute'"}
+2026-11-19T15:33:04.697+0800	ERROR	controller/post.go:85	logic.GetPostList() error	{"error": "Error 1690 (22003): signed integer value is out of range in 'mysqld_stmt_execute'"}
+{"level":"INFO","time":"2026-11-19T15:33:04.697+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0116896}
+2026-11-19T15:33:04.697+0800	INFO	logger/logger.go:84	/api/v1/post/	{"status": 200, "method": "GET", "path": "/api/v1/post/", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "11.6896ms"}
+{"level":"INFO","time":"2026-11-19T15:33:59.404+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/2663964928380928","status":200,"method":"GET","path":"/api/v1/post/2663964928380928","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0024432}
+2026-11-19T15:33:59.404+0800	INFO	logger/logger.go:84	/api/v1/post/2663964928380928	{"status": 200, "method": "GET", "path": "/api/v1/post/2663964928380928", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "2.4432ms"}
+{"level":"ERROR","time":"2026-11-19T15:35:24.476+0800","caller":"logic/post.go:64","msg":"mysql.GetPostList() failed","error":"Error 1690 (22003): signed integer value is out of range in 'mysqld_stmt_execute'"}
+2026-11-19T15:35:24.476+0800	ERROR	logic/post.go:64	mysql.GetPostList() failed	{"error": "Error 1690 (22003): signed integer value is out of range in 'mysqld_stmt_execute'"}
+{"level":"ERROR","time":"2026-11-19T15:35:24.476+0800","caller":"controller/post.go:85","msg":"logic.GetPostList() error","error":"Error 1690 (22003): signed integer value is out of range in 'mysqld_stmt_execute'"}
+2026-11-19T15:35:24.476+0800	ERROR	controller/post.go:85	logic.GetPostList() error	{"error": "Error 1690 (22003): signed integer value is out of range in 'mysqld_stmt_execute'"}
+{"level":"INFO","time":"2026-11-19T15:35:24.476+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0005057}
+2026-11-19T15:35:24.476+0800	INFO	logger/logger.go:84	/api/v1/post/	{"status": 200, "method": "GET", "path": "/api/v1/post/", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "505.7µs"}
+{"level":"INFO","time":"2026-11-19T15:37:43.306+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+2026-11-19T15:37:43.306+0800	INFO	RedBlog/main.go:87	Shutdown Server ...
+{"level":"INFO","time":"2026-11-19T15:37:43.307+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+2026-11-19T15:37:43.307+0800	INFO	RedBlog/main.go:97	Server exiting
+{"level":"DEBUG","time":"2026-11-19T15:37:47.687+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+2026-11-19T15:37:47.687+0800	DEBUG	RedBlog/main.go:36	logger init success
+{"level":"INFO","time":"2026-11-19T15:37:47.722+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+2026-11-19T15:37:47.722+0800	INFO	RedBlog/main.go:70	服务启动成功	{"addr": ":8081"}
+{"level":"INFO","time":"2026-11-19T15:37:51.039+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0063787}
+2026-11-19T15:37:51.039+0800	INFO	logger/logger.go:84	/api/v1/post/	{"status": 200, "method": "GET", "path": "/api/v1/post/", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "6.3787ms"}
+{"level":"INFO","time":"2026-11-19T15:38:21.854+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/page=1","status":200,"method":"GET","path":"/api/v1/post/page=1","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0}
+2026-11-19T15:38:21.854+0800	INFO	logger/logger.go:84	/api/v1/post/page=1	{"status": 200, "method": "GET", "path": "/api/v1/post/page=1", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "0s"}
+{"level":"INFO","time":"2026-11-19T15:38:28.747+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/size=1","status":200,"method":"GET","path":"/api/v1/post/size=1","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0}
+2026-11-19T15:38:28.747+0800	INFO	logger/logger.go:84	/api/v1/post/size=1	{"status": 200, "method": "GET", "path": "/api/v1/post/size=1", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "0s"}
+{"level":"INFO","time":"2026-11-19T15:38:38.898+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.002043}
+2026-11-19T15:38:38.898+0800	INFO	logger/logger.go:84	/api/v1/post/	{"status": 200, "method": "GET", "path": "/api/v1/post/", "query": "size=1", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "2.043ms"}
+{"level":"INFO","time":"2026-11-19T15:38:55.108+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"page=1","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0027056}
+2026-11-19T15:38:55.108+0800	INFO	logger/logger.go:84	/api/v1/post/	{"status": 200, "method": "GET", "path": "/api/v1/post/", "query": "page=1", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "2.7056ms"}
+{"level":"INFO","time":"2026-11-19T15:39:03.242+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=2&page=1","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0022235}
+2026-11-19T15:39:03.242+0800	INFO	logger/logger.go:84	/api/v1/post/	{"status": 200, "method": "GET", "path": "/api/v1/post/", "query": "size=2&page=1", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "2.2235ms"}
+{"level":"INFO","time":"2026-11-19T15:39:11.434+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1&page=2","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0020895}
+2026-11-19T15:39:11.434+0800	INFO	logger/logger.go:84	/api/v1/post/	{"status": 200, "method": "GET", "path": "/api/v1/post/", "query": "size=1&page=2", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "2.0895ms"}
+{"level":"INFO","time":"2026-11-19T16:22:21.311+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+2026-11-19T16:22:21.311+0800	INFO	RedBlog/main.go:87	Shutdown Server ...
+{"level":"INFO","time":"2026-11-19T16:22:21.314+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+2026-11-19T16:22:21.314+0800	INFO	RedBlog/main.go:97	Server exiting
