@@ -438,3 +438,81 @@
 2026-11-19T16:22:21.311+0800	INFO	RedBlog/main.go:87	Shutdown Server ...
 {"level":"INFO","time":"2026-11-19T16:22:21.314+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
 2026-11-19T16:22:21.314+0800	INFO	RedBlog/main.go:97	Server exiting
+{"level":"DEBUG","time":"2026-11-21T15:55:18.174+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+2026-11-21T15:55:18.174+0800	DEBUG	RedBlog/main.go:36	logger init success
+{"level":"INFO","time":"2026-11-21T15:55:18.359+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+2026-11-21T15:55:18.359+0800	INFO	RedBlog/main.go:70	服务启动成功	{"addr": ":8081"}
+{"level":"INFO","time":"2026-11-21T15:56:43.252+0800","caller":"logger/logger.go:84","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.1982652}
+2026-11-21T15:56:43.252+0800	INFO	logger/logger.go:84	/api/v1/login	{"status": 200, "method": "POST", "path": "/api/v1/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "198.2652ms"}
+{"level":"INFO","time":"2026-11-21T15:57:20.264+0800","caller":"logger/logger.go:84","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.052378}
+2026-11-21T15:57:20.264+0800	INFO	logger/logger.go:84	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "52.378ms"}
+{"level":"INFO","time":"2026-11-21T15:59:30.780+0800","caller":"logger/logger.go:84","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0007577}
+2026-11-21T15:59:30.780+0800	INFO	logger/logger.go:84	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "757.7µs"}
+{"level":"DEBUG","time":"2026-11-21T15:59:39.577+0800","caller":"logic/vote.go:35","msg":"VoteForPost","userID":933832660357120,"postID":"3744004411756544","direction":1}
+2026-11-21T15:59:39.577+0800	DEBUG	logic/vote.go:35	VoteForPost	{"userID": 933832660357120, "postID": "3744004411756544", "direction": 1}
+{"level":"ERROR","time":"2026-11-21T15:59:39.588+0800","caller":"controller/vote.go:35","msg":"logic.VoteForPost failed","error":"redis: nil","userID":933832660357120}
+2026-11-21T15:59:39.588+0800	ERROR	controller/vote.go:35	logic.VoteForPost failed	{"error": "redis: nil", "userID": 933832660357120}
+{"level":"INFO","time":"2026-11-21T15:59:39.588+0800","caller":"logger/logger.go:84","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0115606}
+2026-11-21T15:59:39.588+0800	INFO	logger/logger.go:84	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "11.5606ms"}
+{"level":"DEBUG","time":"2026-11-21T16:00:29.025+0800","caller":"logic/vote.go:35","msg":"VoteForPost","userID":933832660357120,"postID":"3744004411756544","direction":1}
+2026-11-21T16:00:29.025+0800	DEBUG	logic/vote.go:35	VoteForPost	{"userID": 933832660357120, "postID": "3744004411756544", "direction": 1}
+{"level":"ERROR","time":"2026-11-21T16:00:29.025+0800","caller":"controller/vote.go:35","msg":"logic.VoteForPost failed","error":"redis: nil","userID":933832660357120}
+2026-11-21T16:00:29.025+0800	ERROR	controller/vote.go:35	logic.VoteForPost failed	{"error": "redis: nil", "userID": 933832660357120}
+{"level":"INFO","time":"2026-11-21T16:00:29.025+0800","caller":"logger/logger.go:84","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000507}
+2026-11-21T16:00:29.025+0800	INFO	logger/logger.go:84	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "507µs"}
+{"level":"INFO","time":"2026-11-21T16:00:36.122+0800","caller":"logger/logger.go:84","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0}
+2026-11-21T16:00:36.122+0800	INFO	logger/logger.go:84	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "0s"}
+{"level":"DEBUG","time":"2026-11-21T16:00:43.709+0800","caller":"logic/vote.go:35","msg":"VoteForPost","userID":933832660357120,"postID":"3744004411756544","direction":-1}
+2026-11-21T16:00:43.709+0800	DEBUG	logic/vote.go:35	VoteForPost	{"userID": 933832660357120, "postID": "3744004411756544", "direction": -1}
+{"level":"ERROR","time":"2026-11-21T16:00:43.710+0800","caller":"controller/vote.go:35","msg":"logic.VoteForPost failed","error":"redis: nil","userID":933832660357120}
+2026-11-21T16:00:43.710+0800	ERROR	controller/vote.go:35	logic.VoteForPost failed	{"error": "redis: nil", "userID": 933832660357120}
+{"level":"INFO","time":"2026-11-21T16:00:43.710+0800","caller":"logger/logger.go:84","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000643}
+2026-11-21T16:00:43.710+0800	INFO	logger/logger.go:84	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "643µs"}
+{"level":"INFO","time":"2026-11-21T16:11:02.718+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+2026-11-21T16:11:02.718+0800	INFO	RedBlog/main.go:87	Shutdown Server ...
+{"level":"INFO","time":"2026-11-21T16:11:02.720+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+2026-11-21T16:11:02.720+0800	INFO	RedBlog/main.go:97	Server exiting
+{"level":"DEBUG","time":"2026-11-21T16:13:01.448+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+2026-11-21T16:13:01.448+0800	DEBUG	RedBlog/main.go:36	logger init success
+{"level":"INFO","time":"2026-11-21T16:13:01.479+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+2026-11-21T16:13:01.479+0800	INFO	RedBlog/main.go:70	服务启动成功	{"addr": ":8081"}
+{"level":"DEBUG","time":"2026-11-21T16:13:06.631+0800","caller":"logic/vote.go:35","msg":"VoteForPost","userID":933832660357120,"postID":"3744004411756544","direction":1}
+2026-11-21T16:13:06.631+0800	DEBUG	logic/vote.go:35	VoteForPost	{"userID": 933832660357120, "postID": "3744004411756544", "direction": 1}
+{"level":"ERROR","time":"2026-11-21T16:13:06.631+0800","caller":"controller/vote.go:35","msg":"logic.VoteForPost failed","error":"redis: nil","userID":933832660357120}
+2026-11-21T16:13:06.631+0800	ERROR	controller/vote.go:35	logic.VoteForPost failed	{"error": "redis: nil", "userID": 933832660357120}
+{"level":"INFO","time":"2026-11-21T16:13:06.631+0800","caller":"logger/logger.go:84","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0016024}
+2026-11-21T16:13:06.631+0800	INFO	logger/logger.go:84	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "1.6024ms"}
+{"level":"INFO","time":"2026-11-21T16:14:21.401+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+2026-11-21T16:14:21.401+0800	INFO	RedBlog/main.go:87	Shutdown Server ...
+{"level":"INFO","time":"2026-11-21T16:14:21.402+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+2026-11-21T16:14:21.402+0800	INFO	RedBlog/main.go:97	Server exiting
+{"level":"DEBUG","time":"2026-11-21T16:16:02.783+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+2026-11-21T16:16:02.783+0800	DEBUG	RedBlog/main.go:36	logger init success
+{"level":"INFO","time":"2026-11-21T16:16:02.811+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+2026-11-21T16:16:02.811+0800	INFO	RedBlog/main.go:70	服务启动成功	{"addr": ":8081"}
+{"level":"DEBUG","time":"2026-11-21T16:16:06.471+0800","caller":"logic/vote.go:35","msg":"VoteForPost","userID":933832660357120,"postID":"3744004411756544","direction":1}
+2026-11-21T16:16:06.471+0800	DEBUG	logic/vote.go:35	VoteForPost	{"userID": 933832660357120, "postID": "3744004411756544", "direction": 1}
+{"level":"ERROR","time":"2026-11-21T16:16:06.471+0800","caller":"controller/vote.go:35","msg":"logic.VoteForPost failed","error":"redis: nil","userID":933832660357120}
+2026-11-21T16:16:06.471+0800	ERROR	controller/vote.go:35	logic.VoteForPost failed	{"error": "redis: nil", "userID": 933832660357120}
+{"level":"INFO","time":"2026-11-21T16:16:06.471+0800","caller":"logger/logger.go:84","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0011976}
+2026-11-21T16:16:06.471+0800	INFO	logger/logger.go:84	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "1.1976ms"}
+{"level":"INFO","time":"2026-11-21T16:16:25.689+0800","caller":"logger/logger.go:84","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0214744}
+2026-11-21T16:16:25.689+0800	INFO	logger/logger.go:84	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "21.4744ms"}
+{"level":"DEBUG","time":"2026-11-21T16:16:39.977+0800","caller":"logic/vote.go:35","msg":"VoteForPost","userID":933832660357120,"postID":"3748808798244864","direction":1}
+2026-11-21T16:16:39.977+0800	DEBUG	logic/vote.go:35	VoteForPost	{"userID": 933832660357120, "postID": "3748808798244864", "direction": 1}
+{"level":"INFO","time":"2026-11-21T16:16:39.978+0800","caller":"logger/logger.go:84","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0011906}
+2026-11-21T16:16:39.978+0800	INFO	logger/logger.go:84	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "1.1906ms"}
+{"level":"INFO","time":"2026-11-21T16:31:18.100+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+2026-11-21T16:31:18.100+0800	INFO	RedBlog/main.go:87	Shutdown Server ...
+{"level":"INFO","time":"2026-11-21T16:31:18.101+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+2026-11-21T16:31:18.101+0800	INFO	RedBlog/main.go:97	Server exiting
+{"level":"DEBUG","time":"2026-11-21T16:31:23.222+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+2026-11-21T16:31:23.222+0800	DEBUG	RedBlog/main.go:36	logger init success
+{"level":"INFO","time":"2026-11-21T16:31:23.258+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+2026-11-21T16:31:23.258+0800	INFO	RedBlog/main.go:70	服务启动成功	{"addr": ":8081"}
+{"level":"INFO","time":"2026-11-21T16:31:32.241+0800","caller":"logger/logger.go:84","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0012461}
+2026-11-21T16:31:32.241+0800	INFO	logger/logger.go:84	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": "1.2461ms"}
+{"level":"INFO","time":"2026-11-21T16:32:27.211+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+2026-11-21T16:32:27.211+0800	INFO	RedBlog/main.go:87	Shutdown Server ...
+{"level":"INFO","time":"2026-11-21T16:32:27.213+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+2026-11-21T16:32:27.213+0800	INFO	RedBlog/main.go:97	Server exiting

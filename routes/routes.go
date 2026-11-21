@@ -28,16 +28,19 @@ func SetUp(mode string) *gin.Engine {
 
 	{
 		//查询所有社区
-		v1.GET("community", controller.CommunityHandler)
+		v1.GET("/community", controller.CommunityHandler)
 		//查询社区详情
-		v1.GET("community/:id", controller.CommunityDetailHandler)
+		v1.GET("/community/:id", controller.CommunityDetailHandler)
 
 		//发表帖子
-		v1.POST("post", controller.CreatePostHandler)
+		v1.POST("/post", controller.CreatePostHandler)
 		//查询帖子详情
-		v1.GET("post/:id", controller.PostDetailHandler)
+		v1.GET("/post/:id", controller.PostDetailHandler)
 		//查询帖子列表
-		v1.GET("post/", controller.GetPostListHandler)
+		v1.GET("/post/", controller.GetPostListHandler)
+
+		//帖子投票
+		v1.POST("/vote", controller.PostVoteController)
 	}
 
 	//r.GET("ping", middleware.JWTAuthMiddleware(), func(c *gin.Context) {

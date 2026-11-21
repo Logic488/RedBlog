@@ -28,7 +28,7 @@ func CreatePostHandler(c *gin.Context) {
 	}
 	p.AuthorID = userID
 	//执行业务逻辑：创建帖子
-	if err := logic.CreatePost(p); err != nil {
+	if err := logic.CreatePost(c.Request.Context(), p); err != nil {
 		zap.L().Error("Create Post failed", zap.Error(err))
 		ResponseError(c, CodeServerBusy)
 		return

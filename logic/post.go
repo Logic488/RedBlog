@@ -2,18 +2,23 @@ package logic
 
 import (
 	"RedBlog/dao/mysql"
+	"RedBlog/dao/redis"
 	"RedBlog/models"
 	"RedBlog/pkg/snowflake"
+	"context"
 
 	"go.uber.org/zap"
 )
 
 // CreatePost 创建帖子
-func CreatePost(p *models.Post) (err error) {
+func CreatePost(ctx context.Context, p *models.Post) (err error) {
 	//雪花算法生成post_id
 	p.ID = snowflake.GenID()
 	//插入post数据
 	err = mysql.InsertPost(p)
+
+	err = redis.CreatePost(ctx, p.ID)
+
 	//返回响应
 	return
 }

@@ -9,11 +9,11 @@ import (
 )
 
 // 声明一个全局的rdb变量
-var rdb *redis.Client
+var client *redis.Client
 
 // 初始化连接
 func Init(cfg *settings.RedisConfig) (err error) {
-	rdb = redis.NewClient(&redis.Options{
+	client = redis.NewClient(&redis.Options{
 		//Addr:     "localhost:6379",
 		//Addr:     fmt.Sprintf("%s:%d", viper.GetString("redis.addr"), viper.GetInt("redis.port")),
 		//Password: viper.GetString("redis.password"), // no password set
@@ -25,11 +25,11 @@ func Init(cfg *settings.RedisConfig) (err error) {
 		PoolSize: cfg.PoolSize,
 	})
 
-	_, err = rdb.Ping(context.Background()).Result()
+	_, err = client.Ping(context.Background()).Result()
 
 	return
 }
 
 func Close() {
-	_ = rdb.Close()
+	_ = client.Close()
 }

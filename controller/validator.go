@@ -2,6 +2,7 @@ package controller
 
 import (
 	"fmt"
+	"strings"
 
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-playground/locales/en"
@@ -48,4 +49,15 @@ func InitTrans(locale string) (err error) {
 		return
 	}
 	return
+}
+
+// removeTopStruct 去除校验错误提示里字段名前面的结构体名前缀
+// Translate 返回的 map 长这样：{"ParamVoteData.PostID": "PostID为必填字段"}
+// 这里把 "ParamVoteData." 去掉，只留字段名
+func removeTopStruct(fields map[string]string) map[string]string {
+	res := map[string]string{}
+	for field, err := range fields {
+		res[field[strings.Index(field, ".")+1:]] = err
+	}
+	return res
 }

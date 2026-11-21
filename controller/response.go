@@ -15,7 +15,7 @@ import (
 type ResponseData struct {
 	Code ResCode     `json:"code"`
 	Msg  interface{} `json:"msg"`
-	Data interface{} `json:"data"`
+	Data interface{} `json:"data,omitempty"` // omitempty:当字段为null，就不会在json序列化的时候展示这个字段
 }
 
 func ResponseError(c *gin.Context, code ResCode) {
