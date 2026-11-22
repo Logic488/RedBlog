@@ -37,7 +37,9 @@ func SetUp(mode string) *gin.Engine {
 		//查询帖子详情
 		v1.GET("/post/:id", controller.PostDetailHandler)
 		//查询帖子列表
-		v1.GET("/post/", controller.GetPostListHandler)
+		v1.GET("/posts", controller.GetPostListHandler)
+		//根据时间或分数查询帖子列表
+		v1.GET("/posts2", controller.GetPostListHandler2)
 
 		//帖子投票
 		v1.POST("/vote", controller.PostVoteController)
