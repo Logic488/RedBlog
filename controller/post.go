@@ -112,29 +112,45 @@ func GetPostListHandler2(c *gin.Context) {
 		return
 	}
 
-	//pageStr := c.Query("page")
-	//sizeStr := c.Query("size")
-	//var (
-	//	page int64
-	//	size int64
-	//	err  error
-	//)
-	//page, err = strconv.ParseInt(pageStr, 10, 64)
-	//if err != nil {
-	//	page = 1
-	//}
-	//size, err = strconv.ParseInt(sizeStr, 10, 64)
-	//if err != nil {
-	//	size = 10
-	//}
-
 	//执行业务逻辑：获取数据
-	data, err := logic.GetPostList2(c.Request.Context(), p)
+	data, err := logic.GetPostListNew(c.Request.Context(), p)
 	if err != nil {
-		zap.L().Error("logic.GetPostList() error", zap.Error(err))
+		zap.L().Error("logic.GetPostListNew() error", zap.Error(err))
 		ResponseError(c, CodeServerBusy)
 		return
 	}
 	//返回响应
 	ResponseSuccess(c, data)
 }
+
+//// GetCommunityPostListHandler 根据社区查询帖子列表
+//// 1.获取参数
+//// 2.去redis查询id列表
+//// 3.根据id列表去数据库查询帖子详情
+//func GetCommunityPostListHandler(c *gin.Context) {
+//	//GET请求参数：/api/v1/posts/2?page=1&size=10&order=time
+//	// 获取分页参数
+//	//初始化结构体时指定初始参数
+//	p := &models.ParamCommunityPostList{
+//		ParamPostList: models.ParamPostList{
+//			Page:  1,
+//			Size:  10,
+//			Order: models.OrderTime, //默认按照时间排序（同时代码避免硬编码）
+//		},
+//	}
+//
+//	if err := c.ShouldBindQuery(p); err != nil {
+//		zap.L().Error("GetCommunityPostListHandler() error", zap.Error(err))
+//		ResponseError(c, CodeInvalidParam)
+//		return
+//	}
+//	//执行业务逻辑：获取数据
+//	data, err := logic.GetCommunityPostList(c.Request.Context(), p)
+//	if err != nil {
+//		zap.L().Error("logic.GetCommunityPostList() error", zap.Error(err))
+//		ResponseError(c, CodeServerBusy)
+//		return
+//	}
+//	//返回响应
+//	ResponseSuccess(c, data)
+//}

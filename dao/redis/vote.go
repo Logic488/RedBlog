@@ -4,6 +4,7 @@ import (
 	"context"
 	"errors"
 	"math"
+	"strconv"
 	"time"
 
 	"github.com/redis/go-redis/v9"
@@ -62,7 +63,7 @@ func VoteForPost(ctx context.Context, userID, postID string, direction float64) 
 	return err
 }
 
-func CreatePost(ctx context.Context, postID int64) error {
+func CreatePost(ctx context.Context, postID int64, communityID int64) error {
 	//帖子时间和帖子分数的更新写入操作要放到同一个事务中执行
 	pipeline := client.TxPipeline()
 	//帖子时间
@@ -77,6 +78,9 @@ func CreatePost(ctx context.Context, postID int64) error {
 		Member: postID,
 	})
 
+	//把帖子id加到社区的set中
+	cKey := getRedisKey(KeyCommunitySetPrefix + strconv.Itoa(int(communityID)))
+	pipeline.SAdd(ctx, cKey, postID)
 	_, err := pipeline.Exec(ctx)
 
 	return err

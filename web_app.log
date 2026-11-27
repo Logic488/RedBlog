@@ -582,3 +582,11 @@
 2026-11-22T21:25:47.526+0800	INFO	RedBlog/main.go:87	Shutdown Server ...
 {"level":"INFO","time":"2026-11-22T21:25:47.526+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
 2026-11-22T21:25:47.526+0800	INFO	RedBlog/main.go:97	Server exiting
+{"level":"DEBUG","time":"2026-11-27T14:40:58.728+0800","caller":"RedBlog/main.go:36","msg":"logger init success"}
+2026-11-27T14:40:58.728+0800	DEBUG	RedBlog/main.go:36	logger init success
+{"level":"INFO","time":"2026-11-27T14:40:58.798+0800","caller":"RedBlog/main.go:70","msg":"服务启动成功","addr":":8081"}
+2026-11-27T14:40:58.798+0800	INFO	RedBlog/main.go:70	服务启动成功	{"addr": ":8081"}
+{"level":"INFO","time":"2026-11-27T14:42:07.166+0800","caller":"RedBlog/main.go:87","msg":"Shutdown Server ..."}
+2026-11-27T14:42:07.166+0800	INFO	RedBlog/main.go:87	Shutdown Server ...
+{"level":"INFO","time":"2026-11-27T14:42:07.166+0800","caller":"RedBlog/main.go:97","msg":"Server exiting"}
+2026-11-27T14:42:07.166+0800	INFO	RedBlog/main.go:97	Server exiting
